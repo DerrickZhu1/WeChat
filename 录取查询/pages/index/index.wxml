@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="box">
+    <view class="title">录取结果查询</view>
+    <view class="black">
+        <label style="font-size:{{fontsize1}};"><text class="label">*</text>录取学校：</label>
+        <input type="text" bindfocus="focus" bindblur="blur" data-id="1" placeholder="请输入学校" cursor-spacing='5' adjust-position="true" bindinput="bindSchoolInput" value="{{school}}" />
+        <button type="primary" size="default" bindtap="queryAdimissionInfo">查询成绩</button>
+    </view>
+</view>
+
+<view>  
+  <view class="container"  wx:for="{{students}}" wx:key="property" class="list" data-id="{{item._id}}">
+    <view> GRE: {{item.GRE}} </view>
+    <view> 本科学校: {{item['本科学校']}}</view>
+    <view> 录取学校: {{item['录取学校']}}</view>
+    <view> 录取结果 {{item['录取结果']}}</view>
+  </view>
+</view>
+
+<mp-icon icon="add" color="green" size="{{26}}"></mp-icon>
+

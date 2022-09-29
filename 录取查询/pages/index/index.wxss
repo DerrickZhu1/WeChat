@@ -1,0 +1,96 @@
+/**index.wxss**/
+
+/* 取消默认边框 */
+input{
+    border-bottom: 1px solid #929292;
+}
+
+button{
+    margin: 40rpx 30rpx 0rpx 40rpx;
+}
+
+.look{
+    width: 100%;
+    height: 140rpx;
+    padding: 30rpx;
+    box-sizing: border-box;
+}
+.look label{
+    color: red;
+    font-size: 40rpx;
+    font-weight: 700;
+}
+.information{
+    color: seashell;
+    font-size: 30rpx;
+    margin-top: 20rpx;
+    -webkit-line-clamp:2;
+}
+
+.box{
+    width: 95%;
+    height: 600rpx;
+    background-color: rgb(255, 255, 255);
+    margin: 100rpx auto;
+    border-radius: 10rpx;
+}
+.title{
+    width: 100%;
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    color: azure;
+    font-size: 15px;
+    padding-left: 20rpx;
+    box-sizing: border-box;
+    border-top-right-radius: 10rpx;
+    border-top-left-radius: 10rpx;
+    background-color: rgb(1, 107, 107);
+}
+.black{
+    width: 100%;
+    padding: 40rpx;
+    box-sizing: border-box;
+    line-height: 100rpx;
+}
+.black label{
+    display: inline-block;
+    width: 100%;
+    height: 48rpx;
+}
+.label{
+    color: red;
+    margin-right: 10rpx;
+}
+
+.view-contain-ti {
+    display: flex;
+    height: 40px;
+    margin: 20px;
+    border: 3rpx solid #faca82;
+    border-radius: 10rpx;
+  }
+  
+.text-ti {
+    position: absolute;
+    font-size: 12px;
+    background: white;
+    margin: -10px 0 0 10px;
+    padding: 0 5px;
+    color: rgb(144, 147, 167);
+}
+  
+.input1 {
+   margin: auto 10px;
+}
+
+.button1 {
+  margin-top: 80rpx;
+  background: #457fca; 
+}
+
+.container {
+    padding: 10px 20px 10px 20px;
+    align-content: center;
+}
+  
